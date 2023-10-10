@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def new_in_list(listArr, index, el):
-    new_el = listArr[:]
-    if index < 0 or index >= len(listArr):
+def new_in_list(my_list, idx, element):
+    new_el = my_list[:]
+    if idx < 0 or idx >= len(my_list):
         pass
     else:
-        new_el[index] = el
+        new_el[idx] = element
     return new_el
