@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def weight_average(my_list=[]):7
+def weight_average(my_list=[]):
     if my_list == []:
         return 0
     add_score = 0
