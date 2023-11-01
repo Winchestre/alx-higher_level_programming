@@ -27,7 +27,7 @@ class Rectangle:
         Args:
             width (int): horizontal dimension of rectangle, defaults to 0
             height (int): vertical dimension of rectangle, defaults to 0
-            """
+        """
         type(self).number_of_instances += 1
         # attribute assigment here engages setters defined below
         self.width = width
