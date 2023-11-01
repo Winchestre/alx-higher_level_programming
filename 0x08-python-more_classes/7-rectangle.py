@@ -49,8 +49,8 @@ class Rectangle:
         """Args:
             value (int): horizontal dimension of rectangle
 
-        Attributes: 
-             __width (int): horizontal dimension of rectangle
+        Attributes:
+            __width (int): horizontal dimension of rectangle
 
         Raises:
             TypeError: If `value` is not an int.

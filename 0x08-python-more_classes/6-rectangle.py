@@ -16,7 +16,7 @@ class Rectangle:
         instantiation, and decrementing for every instance deletion.
     """
     number_of_instances = 0
-    
+
     def __init__(self, width=0, height=0):
         """
         Initializes a new Rectangle instance.
@@ -52,7 +52,6 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        
         self.__width = value
 
     @property
