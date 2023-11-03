@@ -22,17 +22,17 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """Increments `number_of_instances` and calls setters for `__width`
-            and `__height`.
+        and `__height`.
 
         Args:
             width (int): horizontal dimension of rectangle, defaults to 0
             height (int): vertical dimension of rectangle, defaults to 0
 
         """
-    type(self).number_of_instances += 1
-    # attribute assigment here engages setters defined below
-    self.width = width
-    self.height = height
+        type(self).number_of_instances += 1
+        # attribute assigment here engages setters defined below
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -49,8 +49,8 @@ class Rectangle:
         """Args:
             value (int): horizontal dimension of rectangle
 
-        Attributes: 
-             __width (int): horizontal dimension of rectangle
+        Attributes:
+            __width (int): horizontal dimension of rectangle
 
         Raises:
             TypeError: If `value` is not an int.

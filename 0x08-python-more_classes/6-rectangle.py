@@ -12,7 +12,11 @@ class Rectangle:
     Attributes:
         __width (int): The width of the rectangle.
         __height (int): The height of the rectangle.
+        number_of_instances (int): counter incrementing for every
+        instantiation, and decrementing for every instance deletion.
     """
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """
         Initializes a new Rectangle instance.
@@ -23,6 +27,7 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
