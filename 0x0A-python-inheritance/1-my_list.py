@@ -9,4 +9,4 @@ class MyList(list):
         '''Print a list in sorted ascending'''
         print(sorted(self))
 
-    print(sorted.__dir__())
+    # print(sorted.__dir__())
