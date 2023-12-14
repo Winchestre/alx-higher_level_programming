@@ -1,4 +1,2 @@
---Lists all cities in the database hbtn_0d_usa.
--- Records are sorted in order of ascending cities.id.
-SELECT c.`id`, c.`name`, s.`name` FROM `cities` AS c
-
+-- A script that lists all cities contained in the database hbtn_0d_usa.
+SELECT cities.id, cities.name, states.name FROM cities LEFT JOIN states ON states.id = cities.state_id ORDER BY cities.id;
