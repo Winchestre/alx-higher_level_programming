@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """satates model"""
 from sqlalchemy import (Column, String, Integer, ForeignKey)
-from relationship_state import Base
+from model_state import Base
 
 
 class City(Base):
